@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Daftar</title>
+</head>
+<body>
+    <div id="daftar">
+        <div class="home">
+            <div class="sales-boxes">
+                <h1 style="text-align: center; padding-bottom: 27px;">Pendaftaran Anggota Eksternal</h1>
+                <div class="content">
+                    <form action="index.html">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Nama</span>
+                                <input type="text" name="nama" placeholder="Masukkan Nama" required>
+                            </div>
+        
+                            <div class="input-box">
+                                <span class="details">Angkatan</span>
+                                <select class="select" name="angkatan" required>
+                                    <option>2020</option>
+                                    <option>2021</option>
+                                    <option>2022</option>
+                                </select>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Email</span>
+                                <input type="email" name="email" placeholder="Masukkan Email" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Nomor HP</span>
+                                <input type="text" pattern=”[0-9]” name="nomor" placeholder="Masukkan Nomor WA" required>
+                            </div>
+                        </div>
+                        <div class="input-box">
+                            <br>
+                            <span class="details">Jenis Kelamin</span>
+                            <br>
+                            <input type="radio" />laki-laki>
+                            <input type="radio" /> Perempuan>
+                        <div class="user-details">
+                            <div class="input-box2">
+                                <span class="details">Alasan Masuk Dapartemen Eksternal</span>
+                                <textarea type="text" 
+                                            rows="0"
+                                            cols="0"required>
+                                </textarea>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Divisi yang diminati</span>
+                                <div class="topp">
+                                    <input class="checkbox" type="checkbox" id="Sosial Masyarakat">
+                                    <label class="check" for="Sosial Masyarakat">Sosial Masyarakat</label>
+                                </div>
+                                <div>
+                                    <input class="checkbox" type="checkbox" id="hll">
+                                    <label class="check" for="hll">Hubungan Luar LembagaL</label>
+                                </div>
+                            </div>
+                        </div>         
+                        <div class="input-box">
+                            <span class="details">Tambah Foto Terbaik Anda </span>
+                            <label class="button_img">
+                                  <input type="file" name="gambar" required />
+                                  <span class='label' data-js-label>Pilih Foto
+                            </label>
+                        </div>
+                        </div>
+                        <div class="button3">
+
+                            <label>
+                                <input type="submit" value="Daftar">
+                            </label>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <footer>
+        <hr>
+    </footer>
+</body>
+</html>
